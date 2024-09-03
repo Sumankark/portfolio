@@ -1,0 +1,66 @@
+/* Work.css */
+
+.work-section {
+  padding: 3rem 1rem;
+  background-color: #f5f5f5;
+}
+
+.work-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.work-content {
+  padding: 1rem;
+}
+
+.work-item {
+  margin-bottom: 2rem;
+}
+
+.work-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.work-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.work-link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.work-link:hover {
+  color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .work-title {
+    font-size: 1.5rem;
+  }
+
+  .work-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .work-description {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,65 @@
+.navbar-custom {
+  background-color: #999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+}
+
+.brand-custom {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  margin-right: auto;
+}
+
+.nav-link-custom {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer; /* Ensure cursor is a pointer */
+}
+
+.nav-link-custom:hover {
+  font-weight: bolder;
+  color: royalblue;
+}
+
+.active-link {
+  color: royalblue !important;
+  font-weight: bolder;
+  border-bottom: 0.2rem solid royalblue;
+}
+
+.hire-me-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.4rem 1rem;
+  border-radius: 24px;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer; /* Ensure cursor is a pointer */
+}
+
+.hire-me-btn:hover {
+  background-color: darkgreen;
+}
+
+.navbar .nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .nav-link-custom {
+    margin-right: 3rem;
+  }
+}
