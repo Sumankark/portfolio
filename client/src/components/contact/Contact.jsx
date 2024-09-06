@@ -15,7 +15,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     alert("Message sent!");
   };
 
@@ -73,10 +72,12 @@ const Contact = () => {
         <div className="contact-info">
           <p className="info-item">
             <strong>Email:</strong>{" "}
-            <a href="mailto:example@example.com">example@example.com</a>
+            <a href="mailto:karkisuman0627@gmail.com">
+              karkisuman0627@gmail.com
+            </a>
           </p>
           <p className="info-item">
-            <strong>Phone:</strong> <a href="tel:+1234567890">+123 456 7890</a>
+            <strong>Phone:</strong> <a href="tel:+977 9864156616">9864156616</a>
           </p>
         </div>
       </div>
